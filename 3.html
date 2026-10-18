@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StartPage</title>
+    <link rel="icon" href="./icons/icon.png">
+</head>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="./background/1.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+
+<body>
+    <div class="box-top">
+        <div class="clock">
+            <span id="clock">00:00:00</span>
+        </div>
+        <div class="date">
+            <i class="fa-regular fa-calendar"></i>
+            <span id="date-display">Loading...</span>
+        </div>
+    </div>
+
+
+
+    <div class="box">
+        <div class="engines">
+            <button class="engine-button active" data-engine="duckduckgo"><i class="fa-solid fa-shield-halved" style="color: rgb(251, 146, 60);"></i> DuckDuckGo</button>
+            <button class="engine-button" data-engine="youtube"><i class="fa-brands fa-youtube" style="color: rgb(238, 68, 68);"></i> YouTube</button>
+            <button class="engine-button" data-engine="duckai"><i class="fa-solid fa-brain" style="color: rgb(251, 146, 60);"></i> Duck.ai</button>
+            <button class="engine-button" data-engine="archwiki"><i class="fa-brands fa-arch-linux" style="color: rgb(45, 178, 210);"></i> ArchWiki</button>
+            <button class="engine-button" data-engine="archpackages"><i class="fa-solid fa-box-archive" style="color: rgb(45, 178, 210);"></i> Arch Packages</button>
+            <button class="engine-button" data-engine="flathub"><i class="fa-solid fa-cube" style="color: rgb(32, 148, 243);"></i> Flathub</button>
+        </div>
+
+        <div class="search-box-box">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            <input type="text" id="search-input" class="search-box" placeholder="Search or enter address">
+        </div>
+    </div>
+
+
+
+    <div class="box">
+        <div>
+            <h3 class="title"><div class="text-icon"><i class="fa-solid fa-rocket" style="color: rgb(255, 0, 42);"></i></div>Shortcut</h3>
+        </div>
+
+        <div class="grid">
+            <a class="a" href="https://www.youtube.com/">
+                <div class="shortcut">
+                    <div class="shortcut-icon"><i class="fa-brands fa-youtube" style="color: rgb(238, 68, 68);"></i></div>
+                    <h5 class="shortcut-text">YouTube</h5>
+                </div>
+            </a>
+
+            <a class="a" href="">
+                <div class="shortcut">
+                    <div class="shortcut-icon"><i class="fa-solid fa-circle-play" style="color: rgb(238, 68, 68);"></i></div>
+                    <h5 class="shortcut-text">YouTube Music</h5>
+                </div>
+            </a>
+
+            <a class="a" href="">
+                <div class="shortcut">
+                    <div class="shortcut-icon"><i class="fa-solid fa-video" style="color: rgb(252, 105, 28);"></i></div>
+                    <h5 class="shortcut-text">Crunchyroll</h5>
+                </div>
+            </a>
+
+            <a class="a" href="">
+                <div class="shortcut">
+                    <div class="shortcut-icon"><i class="fa-solid fa-film" style="color: rgb(240, 46, 35);"></i></div>
+                    <h5 class="shortcut-text">Netflix</h5>
+                </div>
+            </a>
+
+            <a class="a" href="">
+                <div class="shortcut">
+                    <div class="shortcut-icon"><i class="fa-solid fa-database" style="color: rgb(150, 150, 150);"></i></div>
+                    <h5 class="shortcut-text">SteamDB</h5>
+                </div>
+            </a>
+
+            <a class="a" href="">
+                <div class="shortcut">
+                    <div class="shortcut-icon"><i class="fa-solid fa-database" style="color: rgb(237, 1, 85);"></i></div>
+                    <h5 class="shortcut-text">ProtonDB</h5>
+                </div>
+            </a>
+
+            <a class="a" href="">
+                <div class="shortcut">
+                    <div class="shortcut-icon"><i class="fa-solid fa-brain" style="color: rgb(251, 146, 60);"></i></div>
+                    <h5 class="shortcut-text">Duck.ai</h5>
+                </div>
+            </a>
+
+            <a class="a" href="">
+                <div class="shortcut">
+                    <div class="shortcut-icon"><i class="fa-brands fa-arch-linux" style="color: rgb(32, 148, 243);"></i></div>
+                    <h5 class="shortcut-text">Arch Wiki</h5>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+
+    <div class="box-bottom2">
+        <a class="a" href="./4.html">
+            <div class="box-bottom">
+                <i class="fa-solid fa-palette" style="color: rgba(147, 57, 62, 0.8);"></i>
+            </div>
+        </a>
+        <a class="a" href="./3.html">
+            <div class="box-bottom">
+                <i class="fa-solid fa-palette" style="color: rgba(242, 121, 71, 0.8);"></i>
+            </div>
+        </a>
+        <a class="a" href="./2.html">
+            <div class="box-bottom">
+                <i class="fa-solid fa-palette" style="color: rgba(198, 50, 16, 0.8);"></i>
+            </div>
+        </a>
+        <a class="a" href="./index.html">
+            <div class="box-bottom">
+                <i class="fa-solid fa-palette" style="color: rgba(73, 219, 129, 0.8);"></i>
+            </div>
+        </a>
+    </div>
+
+    <script src="./search.js"></script>
+    <script src="./clock.js"></script>
+
+</body>
+</html>

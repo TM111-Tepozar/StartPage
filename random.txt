@@ -1,0 +1,19 @@
+. {
+    background-color: rgba(15, 23, 42, 0.45);
+    border-radius: 16px;
+    padding: 28px 16px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+    border: 1px solid rgba(255, 255, 255, 0.05);
+
+
+
+    background: rgba(30, 27, 46, 0.45);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
